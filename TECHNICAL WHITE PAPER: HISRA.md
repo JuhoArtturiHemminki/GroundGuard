@@ -9,7 +9,7 @@
 ---
 
 ## 1. ABSTRACT
-In the current landscape of USB-C Power Delivery (PD), the persistence of the Configuration Channel (CC) creates a fundamental trade-off between power efficiency and system integrity. Conventional Class II Switched-Mode Power Supplies (SMPS) introduce chassis floating potentials ($\approx$115V AC) and permit non-consensual metadata harvesting via Unstructured Vendor Defined Messages (UVDM). 
+In the current landscape of USB-C Power Delivery (PD), the persistence of the Configuration Channel (CC) creates a fundamental trade-off between power efficiency and system integrity. Conventional Class II Switched-Mode Power Supplies (SMPS) introduce chassis floating potentials $(\approx115V AC)$ and permit non-consensual metadata harvesting via Unstructured Vendor Defined Messages (UVDM). 
 
 This paper presents the **HISRA™ (Handshake Isolation & Reference Anchoring)** architecture. HISRA™ introduces a non-standard "Isolated-Steady-State" by executing a high-speed protocol handshake followed by an automated galvanic severance of the CC lines and the simultaneous injection of an autonomous reference termination. The result is a "Dark Charge" environment: maximum Power Delivery (PD) throughput with zero data-layer exposure and total suppression of tactile AC leakage.
 
